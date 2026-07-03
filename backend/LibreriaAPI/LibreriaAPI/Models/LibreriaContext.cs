@@ -13,6 +13,7 @@ namespace LibreriaAPI.Models
         }
 
         public virtual DbSet<Libreria> Librerias { get; set; }
+        public virtual DbSet<Categoria> Categorias { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { }
 
 protected override void OnModelCreating(ModelBuilder modelBuilder)

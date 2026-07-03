@@ -162,3 +162,5 @@ C:\Users\omarc\OneDrive\Documentos\DWIAngular\ExamenSegundoParcial\backend\Libre
 C:\Users\omarc\OneDrive\Documentos\DWIAngular\ExamenSegundoParcial\backend\LibreriaAPI\LibreriaAPI\obj\Debug\net10.0\LibreriaAPI.pdb
 C:\Users\omarc\OneDrive\Documentos\DWIAngular\ExamenSegundoParcial\backend\LibreriaAPI\LibreriaAPI\obj\Debug\net10.0\LibreriaAPI.genruntimeconfig.cache
 C:\Users\omarc\OneDrive\Documentos\DWIAngular\ExamenSegundoParcial\backend\LibreriaAPI\LibreriaAPI\obj\Debug\net10.0\ref\LibreriaAPI.dll
+C:\Users\omarc\OneDrive\Documentos\DWIAngular\ExamenSegundoParcial\backend\LibreriaAPI\LibreriaAPI\bin\Debug\net10.0\LibreriaAPI.staticwebassets.runtime.json
+C:\Users\omarc\OneDrive\Documentos\DWIAngular\ExamenSegundoParcial\backend\LibreriaAPI\LibreriaAPI\obj\Debug\net10.0\LibreriaAPI.sourcelink.json

@@ -30,5 +30,21 @@ namespace LibreriaAPI.Controllers
             return Ok(listaLibros);
         }
 
+        [HttpGet]
+        [Route("GetLibrosById/{id}")]
+        public async Task<ActionResult<Libreria>> GetLibroById(int id)
+        {
+            if (_context == null)
+                return NotFound();
+
+            var libro = await _context.Librerias
+                .FirstOrDefaultAsync(x => x.IdLibro == id);
+
+            if (libro == null)
+                return NotFound();
+
+            return Ok(libro);
+        }
+
     }
 }
