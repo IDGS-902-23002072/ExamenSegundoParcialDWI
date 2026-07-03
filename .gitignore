@@ -1,0 +1,11 @@
+# Dependencias
+/node_modules
+
+# Compilación
+/dist
+
+# Caché de Angular
+/.angular
+
+# Cobertura de pruebas
+/coverage

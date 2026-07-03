@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\Migrations\\20260703060157_Cambios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibreriaAPI\\Migrations\\20260703060157_Cambios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B8942A0-8443-3057-6A22-A76A4941927B}|LibreriaAPI\\LibreriaAPI.csproj|c:\\users\\omarc\\onedrive\\documentos\\dwiangular\\examensegundoparcial\\backend\\libreriaapi\\libreriaapi\\models\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B8942A0-8443-3057-6A22-A76A4941927B}|LibreriaAPI\\LibreriaAPI.csproj|solutionrelative:libreriaapi\\models\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B8942A0-8443-3057-6A22-A76A4941927B}|LibreriaAPI\\LibreriaAPI.csproj|c:\\users\\omarc\\onedrive\\documentos\\dwiangular\\examensegundoparcial\\backend\\libreriaapi\\libreriaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B8942A0-8443-3057-6A22-A76A4941927B}|LibreriaAPI\\LibreriaAPI.csproj|solutionrelative:libreriaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B8942A0-8443-3057-6A22-A76A4941927B}|LibreriaAPI\\LibreriaAPI.csproj|c:\\users\\omarc\\onedrive\\documentos\\dwiangular\\examensegundoparcial\\backend\\libreriaapi\\libreriaapi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B8942A0-8443-3057-6A22-A76A4941927B}|LibreriaAPI\\LibreriaAPI.csproj|solutionrelative:libreriaapi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B8942A0-8443-3057-6A22-A76A4941927B}|LibreriaAPI\\LibreriaAPI.csproj|c:\\users\\omarc\\onedrive\\documentos\\dwiangular\\examensegundoparcial\\backend\\libreriaapi\\libreriaapi\\models\\libreria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B8942A0-8443-3057-6A22-A76A4941927B}|LibreriaAPI\\LibreriaAPI.csproj|solutionrelative:libreriaapi\\models\\libreria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B8942A0-8443-3057-6A22-A76A4941927B}|LibreriaAPI\\LibreriaAPI.csproj|c:\\users\\omarc\\onedrive\\documentos\\dwiangular\\examensegundoparcial\\backend\\libreriaapi\\libreriaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B8942A0-8443-3057-6A22-A76A4941927B}|LibreriaAPI\\LibreriaAPI.csproj|solutionrelative:libreriaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B8942A0-8443-3057-6A22-A76A4941927B}|LibreriaAPI\\LibreriaAPI.csproj|c:\\users\\omarc\\onedrive\\documentos\\dwiangular\\examensegundoparcial\\backend\\libreriaapi\\libreriaapi\\controllers\\libreriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B8942A0-8443-3057-6A22-A76A4941927B}|LibreriaAPI\\LibreriaAPI.csproj|solutionrelative:libreriaapi\\controllers\\libreriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260703060157_Cambios.cs",
+              "DocumentMoniker": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\Migrations\\20260703060157_Cambios.cs",
+              "RelativeDocumentMoniker": "LibreriaAPI\\Migrations\\20260703060157_Cambios.cs",
+              "ToolTip": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\Migrations\\20260703060157_Cambios.cs",
+              "RelativeToolTip": "LibreriaAPI\\Migrations\\20260703060157_Cambios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T06:01:57.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\Program.cs",
+              "RelativeDocumentMoniker": "LibreriaAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\Program.cs",
+              "RelativeToolTip": "LibreriaAPI\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T04:56:59.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibreriaContext.cs",
+              "DocumentMoniker": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\Models\\LibreriaContext.cs",
+              "RelativeDocumentMoniker": "LibreriaAPI\\Models\\LibreriaContext.cs",
+              "ToolTip": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\Models\\LibreriaContext.cs",
+              "RelativeToolTip": "LibreriaAPI\\Models\\LibreriaContext.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwDAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T05:06:47.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "LibreriaAPI\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\Models\\Categoria.cs",
+              "RelativeToolTip": "LibreriaAPI\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAywA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T05:11:19.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Libreria.cs",
+              "DocumentMoniker": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\Models\\Libreria.cs",
+              "RelativeDocumentMoniker": "LibreriaAPI\\Models\\Libreria.cs",
+              "ToolTip": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\Models\\Libreria.cs",
+              "RelativeToolTip": "LibreriaAPI\\Models\\Libreria.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T05:06:07.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "LibreriaAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\appsettings.json",
+              "RelativeToolTip": "LibreriaAPI\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-03T04:56:18.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LibreriaController.cs",
+              "DocumentMoniker": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\Controllers\\LibreriaController.cs",
+              "RelativeDocumentMoniker": "LibreriaAPI\\Controllers\\LibreriaController.cs",
+              "ToolTip": "C:\\Users\\omarc\\OneDrive\\Documentos\\DWIAngular\\ExamenSegundoParcial\\backend\\LibreriaAPI\\LibreriaAPI\\Controllers\\LibreriaController.cs",
+              "RelativeToolTip": "LibreriaAPI\\Controllers\\LibreriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T04:56:04.225Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
