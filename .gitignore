@@ -9,3 +9,18 @@
 
 # Cobertura de pruebas
 /coverage
+
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# User files
+*.user
+*.suo
+
+# ASP.NET
+wwwroot/
+
+# Logs
+*.log

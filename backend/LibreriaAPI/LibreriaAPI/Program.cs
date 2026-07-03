@@ -35,6 +35,8 @@ app.UseCors("NuevaPolitica");
 
 app.UseHttpsRedirection();
 
+app.UseStaticFiles();
+
 app.UseAuthorization();
 
 app.MapControllers();
