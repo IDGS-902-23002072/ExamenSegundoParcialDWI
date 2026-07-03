@@ -1,0 +1,45 @@
+<section class="banner">
+  <div class="banner-textura" aria-hidden="true"></div>
+  <div class="banner-contenido">
+    <div class="banner-info">
+      <p class="banner-eyebrow">
+        <span class="banner-eyebrow-linea" aria-hidden="true"></span>
+        La primera página de tu próxima historia
+      </p>
+      <h2 class="banner-titulo">Bienvenido a Librería O-Mar ECP</h2>
+      <p class="banner-texto">
+        Desde clásicos que resisten el tiempo hasta mundos de fantasía y las
+        historias de amor más entrañables: encuentra tu próximo libro favorito,
+        con envíos a todo México.
+      </p>
+      <div class="banner-acciones">
+        <a routerLink="/productos" class="banner-cta">Explorar catálogo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="destacados">
+  <div class="destacados-encabezado">
+    <h3 class="destacados-titulo">Libros destacados</h3>
+    <p class="destacados-subtitulo">Algunos de los títulos más buscados.</p>
+  </div>
+
+  <div *ngIf="cargando" class="estado">Cargando libros destacados...</div>
+  <div *ngIf="error" class="estado estado-error">
+    No fue posible cargar los productos. Verifica que la API esté en ejecución.
+  </div>
+
+  <div class="destacados-grid" *ngIf="!cargando && !error">
+    <article class="tarjeta" *ngFor="let libro of librosDestacados">
+      <div class="tarjeta-imagen">
+        <img [src]="'/assets/imagenes/' + obtenerNombreArchivo(libro.imagURL)" [alt]="libro.nombreLibro" />
+      </div>
+      <div class="tarjeta-info">
+        <h4 class="tarjeta-titulo">{{ libro.nombreLibro }}</h4>
+        <p class="tarjeta-autor">{{ libro.autor }}</p>
+        <p class="tarjeta-precio">${{ libro.precio | number: '1.2-2' }}</p>
+      </div>
+    </article>
+  </div>
+</section>

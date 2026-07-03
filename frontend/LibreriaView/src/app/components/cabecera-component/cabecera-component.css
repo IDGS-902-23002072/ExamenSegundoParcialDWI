@@ -1,0 +1,43 @@
+.cabecera {
+  background: var(--color-tinta);
+  color: var(--color-papel);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.marca-icono {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.dorado {
+  color: var(--color-oro);
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav a {
+  font-size: 0.9rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid transparent;
+}
+
+.nav a.activo {
+  border-bottom-color: var(--color-oro);
+  color: var(--color-oro);
+}

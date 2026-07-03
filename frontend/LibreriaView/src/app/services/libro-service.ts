@@ -8,7 +8,7 @@ import { Libro } from '../models/libro';
   providedIn: 'root',
 })
 export class LibroService {
-  private readonly apiUrl = `${environment.apiUrl}/GetLibros`;
+  private readonly apiUrl = `${environment.apiUrl}/Libreria/GetLibros`;
 
   constructor(private http: HttpClient) {}
 
@@ -17,6 +17,6 @@ export class LibroService {
   }
 
   getLibroPorId(id: number): Observable<Libro> {
-    return this.http.get<Libro>(`${this.apiUrl}/${id}`);
+    return this.http.get<Libro>(`${this.apiUrl}ById/${id}`);
   }
 }

@@ -1,0 +1,67 @@
+<section class="pagina">
+  <div class="buscador">
+    <div class="buscador-encabezado">
+      <h2 class="buscador-titulo">Catálogo de libros</h2>
+      <p class="buscador-texto">Explora nuestros títulos por nombre o categoría.</p>
+    </div>
+
+    <div class="buscador-contenido">
+      <input
+        type="text"
+        placeholder="Busca por título..."
+        [(ngModel)]="textoBusqueda"
+        (ngModelChange)="filtrar()"
+      />
+
+      <div class="categorias">
+        <button
+          type="button"
+          [class.activa]="categoriaSeleccionada === null"
+          (click)="seleccionarCategoria(null)"
+        >
+          Todas
+        </button>
+
+        <button
+          type="button"
+          *ngFor="let categoria of categorias"
+          [class.activa]="categoriaSeleccionada === categoria.id"
+          (click)="seleccionarCategoria(categoria.id)"
+        >
+          {{ categoria.nombre }}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="productos">
+    <div class="productos-encabezado">
+      <h3 class="productos-titulo">Nuestros productos</h3>
+      <p class="productos-subtitulo">Encuentra el libro ideal para ti.</p>
+    </div>
+
+    <div *ngIf="cargando" class="estado">Cargando catálogo...</div>
+    <div *ngIf="error" class="estado estado-error">
+      No fue posible cargar los productos. Verifica que la API esté en ejecución.
+    </div>
+
+    <div class="grid" *ngIf="!cargando && !error && librosFiltrados.length > 0">
+      <div class="libro" *ngFor="let libro of librosFiltrados">
+        <div class="libro-imagen">
+          <img [src]="'/assets/imagenes/' + obtenerNombreArchivo(libro.imagURL)" [alt]="libro.nombreLibro" />
+        </div>
+        <div class="libro-info">
+          <span class="categoria" *ngIf="libro.categoria">{{ libro.categoria.nombre }}</span>
+          <h4>{{ libro.nombreLibro }}</h4>
+          <p>{{ libro.autor }}</p>
+          <p class="descripcion">{{ libro.descripcion }}</p>
+          <p class="precio">${{ libro.precio }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="estado" *ngIf="!cargando && !error && librosFiltrados.length === 0">
+      No encontramos libros con esos filtros.
+    </div>
+  </div>
+</section>

@@ -1,0 +1,34 @@
+  <div class="buscador">
+    <div class="buscador-encabezado">
+      <h2 class="buscador-titulo">Catálogo de libros</h2>
+      <p class="buscador-texto">Explora nuestros títulos por nombre o categoría.</p>
+    </div>
+
+    <div class="buscador-contenido">
+      <input
+        type="text"
+        placeholder="Busca por título..."
+        [(ngModel)]="textoBusqueda"
+        (ngModelChange)="filtrar()"
+      />
+
+      <div class="categorias">
+        <button
+          type="button"
+          [class.activa]="categoriaSeleccionada === null"
+          (click)="seleccionarCategoria(null)"
+        >
+          Todas
+        </button>
+
+        <button
+          type="button"
+          *ngFor="let categoria of categorias"
+          [class.activa]="categoriaSeleccionada === categoria.id"
+          (click)="seleccionarCategoria(categoria.id)"
+        >
+          {{ categoria.nombre }}
+        </button>
+      </div>
+    </div>
+  </div>

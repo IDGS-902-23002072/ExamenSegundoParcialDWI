@@ -1,0 +1,92 @@
+.pagina {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.buscador {
+  background: var(--color-tinta);
+  padding: 1.5rem;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.buscador input {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  border: none;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.categorias button {
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--color-papel);
+  border: 1px solid rgba(243, 238, 227, 0.4);
+}
+
+.categorias button.activa {
+  background: var(--color-oro);
+  color: var(--color-tinta);
+  border-color: var(--color-oro);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.libro {
+  background: var(--color-blanco);
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.libro-imagen {
+  aspect-ratio: 3 / 4;
+  background: var(--color-papel);
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.libro-imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.categoria {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: var(--color-vino);
+}
+
+.descripcion {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.precio {
+  font-weight: 600;
+  color: var(--color-vino);
+}
+
+.estado {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.estado-error {
+  color: var(--color-vino);
+}

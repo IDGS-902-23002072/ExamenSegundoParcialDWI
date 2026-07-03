@@ -1,0 +1,25 @@
+.pie {
+  background: var(--color-salvia);
+  color: var(--color-papel);
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  font-family: var(--fuente-utilitaria);
+  font-size: 0.85rem;
+}
+
+.pie p {
+  margin: 0.25rem 0;
+}
+
+.pie__marca {
+  font-family: var(--fuente-display);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.pie__legal {
+  opacity: 0.7;
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+}
